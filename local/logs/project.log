@@ -1,22 +1,60 @@
-2019-11-13 17:03:49-log: preferences@1.0.0 enable
-2019-11-13 17:03:51-log: Parse [D:/program/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 478  files.
-2019-11-13 17:03:51-log: Parse [D:/program/CocosCreator3D/resources/resources/3d/engine/index.ts]: 2000.226ms
-2019-11-13 17:03:52-log: QuickCompiler compileFinished: 41.435ms
-2019-11-13 17:03:52-log: QuickCompiler rebuild finished: 2146.203ms
-2019-11-13 17:03:52-log: engine@1.0.0 enable
-2019-11-13 17:03:52-log: asset-db@1.0.0 enable
-2019-11-13 17:03:52-log: console@1.0.0 enable
-2019-11-13 17:03:52-log: scene@1.0.0 enable
-2019-11-13 17:03:52-log: ui-kit@1.0.0 enable
-2019-11-13 17:03:52-log: assets@1.0.0 enable
-2019-11-13 17:03:52-log: inspector@1.0.0 enable
-2019-11-13 17:03:52-log: hierarchy@1.0.0 enable
-2019-11-13 17:03:52-log: packager@1.0.0 enable
-2019-11-13 17:03:52-log: project-setting@1.0.0 enable
-2019-11-13 17:03:52-log: preview@1.0.0 enable
-2019-11-13 17:03:53-log: builder@1.0.0 enable
-2019-11-13 17:03:53-log: animator@1.0.0 enable
-2019-11-13 17:03:53-log: about@1.0.0 enable
-2019-11-13 17:03:53-log: tester@1.0.0 enable
-2019-11-13 17:03:53-log: ipc@1.0.0 enable
-2019-11-13 17:03:53-log: profile@1.0.0 enable
+2019-11-13 17:54:21-log: preferences@1.0.0 enable
+2019-11-13 17:54:23-log: Parse [D:/program/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 478  files.
+2019-11-13 17:54:23-log: Parse [D:/program/CocosCreator3D/resources/resources/3d/engine/index.ts]: 2173.916ms
+2019-11-13 17:54:24-log: QuickCompiler compileFinished: 41.864ms
+2019-11-13 17:54:24-log: QuickCompiler rebuild finished: 2316.692ms
+2019-11-13 17:54:24-log: engine@1.0.0 enable
+2019-11-13 17:54:24-log: asset-db@1.0.0 enable
+2019-11-13 17:54:24-log: console@1.0.0 enable
+2019-11-13 17:54:24-log: scene@1.0.0 enable
+2019-11-13 17:54:24-log: ui-kit@1.0.0 enable
+2019-11-13 17:54:24-log: assets@1.0.0 enable
+2019-11-13 17:54:24-log: inspector@1.0.0 enable
+2019-11-13 17:54:24-log: hierarchy@1.0.0 enable
+2019-11-13 17:54:24-log: packager@1.0.0 enable
+2019-11-13 17:54:24-log: project-setting@1.0.0 enable
+2019-11-13 17:54:24-log: preview@1.0.0 enable
+2019-11-13 17:54:25-log: builder@1.0.0 enable
+2019-11-13 17:54:25-log: animator@1.0.0 enable
+2019-11-13 17:54:25-log: about@1.0.0 enable
+2019-11-13 17:54:25-log: tester@1.0.0 enable
+2019-11-13 17:54:25-log: ipc@1.0.0 enable
+2019-11-13 17:54:25-log: profile@1.0.0 enable
+2019-11-13 17:56:33-error: [Asset DB] Importer exec failed: 5b016c09-4914-4d0a-bc0c-991abad56606
+2019-11-13 17:56:33-error: [Asset DB] Error: ENOENT: no such file or directory, lstat 'D:\creater_test\PlayBlock\assets\Scripts\game.ts___jb_tmp___'
+2019-11-13 17:57:00-error: [Asset DB] Importer exec failed: 5b016c09-4914-4d0a-bc0c-991abad56606
+2019-11-13 17:57:00-error: [Asset DB] Error: ENOENT: no such file or directory, lstat 'D:\creater_test\PlayBlock\assets\Scripts\game.ts___jb_tmp___'
+2019-11-13 17:57:00-error: [Scene] Error: Can not get asset url by uuid "5b016c09-4914-4d0a-bc0c-991abad56606", the asset may be deleted.
+2019-11-13 18:03:23-error: [Asset DB] SyntaxError: D:\creater_test\PlayBlock\assets\Scripts\game.ts: Unexpected token (22:26)
+2019-11-13 18:03:32-error: [Asset DB] Importer exec failed: 5b016c09-4914-4d0a-bc0c-991abad56606
+2019-11-13 18:03:32-error: [Asset DB] Error: ENOENT: no such file or directory, lstat 'D:\creater_test\PlayBlock\assets\Scripts\game.ts___jb_tmp___'
+2019-11-13 18:03:33-error: [Scene] Error: Can not get asset url by uuid "5b016c09-4914-4d0a-bc0c-991abad56606", the asset may be deleted.
+2019-11-13 18:03:35-error: [Scene] Script (db://assets/Scripts/game.ts) load failed, please check it
+2019-11-13 18:03:35-error: [Scene] Error: Error loading file://undefined
+2019-11-13 18:03:35-error: [Scene] Script (db://assets/Scripts/game.ts) load failed, please check it
+2019-11-13 18:03:35-error: [Scene] Error: Error loading file://undefined
+2019-11-13 18:03:35-error: [Scene] A Class already exists with the same __classname__ : "game".
+2019-11-13 18:03:35-error: [Scene] A Class already exists with the same __cid__ : "8bac3SDtb9PuLsxg+t2J/op".
+2019-11-13 18:03:56-error: [Asset DB] Importer exec failed: 5b016c09-4914-4d0a-bc0c-991abad56606
+2019-11-13 18:03:56-error: [Asset DB] Error: ENOENT: no such file or directory, lstat 'D:\creater_test\PlayBlock\assets\Scripts\game.ts___jb_tmp___'
+2019-11-13 18:04:02-error: [Asset DB] Importer exec failed: 5b016c09-4914-4d0a-bc0c-991abad56606
+2019-11-13 18:04:02-error: [Asset DB] Error: ENOENT: no such file or directory, lstat 'D:\creater_test\PlayBlock\assets\Scripts\game.ts___jb_tmp___'
+2019-11-13 18:04:59-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:19-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:21-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:27-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:28-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:37-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:53-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:58-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:25:59-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:26:00-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:26:01-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:26:01-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:26:07-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:26:08-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:26:10-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:27:03-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:27:04-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:28:47-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved
+2019-11-13 18:28:48-info: asset(D:\creater_test\PlayBlock\assets\Scenes\block.scene) saved

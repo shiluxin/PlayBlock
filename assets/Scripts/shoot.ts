@@ -16,13 +16,22 @@ export class shoot extends Component {
     public bulletPrefab: Prefab = null;
 
     @property({type: cc.Float})
-    speed = 0;
+    moveSpeed = 0;
+    @property({type: cc.Float})
+    bulletStartSpeed = 1;
 
+    public isClick = false;
     public offset : Vec3 = new Vec3();
     public point : Vec3 = new Vec3();
 
     start () {
-        systemEvent.on(Node.EventType.TOUCH_END, () => {this.shoot()});
+        systemEvent.on(Node.EventType.TOUCH_START, ()=>{
+            this.isClick = true;
+        });
+        systemEvent.on(Node.EventType.TOUCH_END, () => {
+            this.shoot();
+            this.isClick = false;
+        });
         systemEvent.on(Node.EventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.on(Node.EventType.KEY_UP, this.onKeyUp, this);
     }
@@ -32,7 +41,7 @@ export class shoot extends Component {
         node.position = this.node.position;
 
         let bulletCom: RigidBodyComponent = node.getComponent(RigidBodyComponent);
-        bulletCom.applyImpulse(new Vec3(0, 2.29, -2 * this.speed));
+        bulletCom.applyImpulse(new Vec3(0, 2.29, -1 * this.bulletStartSpeed));
     }
     onKeyDown (event) {
         cc.log(event);
@@ -62,8 +71,15 @@ export class shoot extends Component {
         //计算要移动的目标位置
         Vec3.add(this.point, this.node.position, this.offset);
         //插值计算
-        Vec3.lerp(this.point, this.node.position, this.point, deltaTime * this.speed);
+        Vec3.lerp(this.point, this.node.position, this.point, deltaTime * this.moveSpeed);
         //移动节点
         this.node.setPosition(this.point);
+        if (this.isClick){
+            if (this.bulletStartSpeed < 20) {
+                this.bulletStartSpeed += deltaTime*10;
+            }
+        } else {
+            this.bulletStartSpeed = 1;
+        }
     }
 }
