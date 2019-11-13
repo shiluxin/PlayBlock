@@ -1,0 +1,22 @@
+2019-11-13 17:03:49-log: preferences@1.0.0 enable
+2019-11-13 17:03:51-log: Parse [D:/program/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 478  files.
+2019-11-13 17:03:51-log: Parse [D:/program/CocosCreator3D/resources/resources/3d/engine/index.ts]: 2000.226ms
+2019-11-13 17:03:52-log: QuickCompiler compileFinished: 41.435ms
+2019-11-13 17:03:52-log: QuickCompiler rebuild finished: 2146.203ms
+2019-11-13 17:03:52-log: engine@1.0.0 enable
+2019-11-13 17:03:52-log: asset-db@1.0.0 enable
+2019-11-13 17:03:52-log: console@1.0.0 enable
+2019-11-13 17:03:52-log: scene@1.0.0 enable
+2019-11-13 17:03:52-log: ui-kit@1.0.0 enable
+2019-11-13 17:03:52-log: assets@1.0.0 enable
+2019-11-13 17:03:52-log: inspector@1.0.0 enable
+2019-11-13 17:03:52-log: hierarchy@1.0.0 enable
+2019-11-13 17:03:52-log: packager@1.0.0 enable
+2019-11-13 17:03:52-log: project-setting@1.0.0 enable
+2019-11-13 17:03:52-log: preview@1.0.0 enable
+2019-11-13 17:03:53-log: builder@1.0.0 enable
+2019-11-13 17:03:53-log: animator@1.0.0 enable
+2019-11-13 17:03:53-log: about@1.0.0 enable
+2019-11-13 17:03:53-log: tester@1.0.0 enable
+2019-11-13 17:03:53-log: ipc@1.0.0 enable
+2019-11-13 17:03:53-log: profile@1.0.0 enable
