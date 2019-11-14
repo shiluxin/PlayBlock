@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a53bcb-ad8b-4461-947b-dd51e6f972d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Scenes/block.scene" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Scenes/block.scene" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Scripts/shoot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Scripts/shoot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/packages/hierarchy.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/packages/hierarchy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/packages/scene.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/packages/scene.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/asset-db/assets/meta-backup/877ff310-05f4-11ea-9a5e-8b1fb3568a46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scene/staging/a192af8d-20b5-40d9-91ba-973690c96f58/20191113 161734.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scene/staging/a192af8d-20b5-40d9-91ba-973690c96f58/20191113 162947.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scene/staging/a192af8d-20b5-40d9-91ba-973690c96f58/20191113 163103.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scene/staging/a192af8d-20b5-40d9-91ba-973690c96f58/20191113 163240.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scene/staging/a192af8d-20b5-40d9-91ba-973690c96f58/20191113 163445.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/startup.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/startup.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,35 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Scripts/shoot.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#142#0" expanded="true" />
-                <element signature="n#!!block;n#onKeyDown#0;n#shoot#0" />
-                <element signature="n#!!block;n#onKeyUp#0;n#shoot#0" />
-                <element signature="n#!!block;n#update#0;n#shoot#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/Scripts/game.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!block;n#addBlock#0;n#game#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +27,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-35" />
-    <option name="y" value="87" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-38" />
+    <option name="y" value="38" />
     <option name="width" value="1940" />
     <option name="height" value="964" />
   </component>
@@ -79,28 +38,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PlayBlock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayBlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PlayBlock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayBlock" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PlayBlock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayBlock" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -137,18 +75,18 @@
       <updated>1573631147103</updated>
       <workItem from="1573631149548" duration="712000" />
       <workItem from="1573632364151" duration="1728000" />
-      <workItem from="1573636413464" duration="4549000" />
+      <workItem from="1573636413464" duration="5164000" />
+      <workItem from="1573642582124" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6989000" />
+    <option name="totallyTimeSpent" value="7643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12311828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,19 +133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Scripts/shoot.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#142#0" expanded="true" />
-            <element signature="n#!!block;n#onKeyDown#0;n#shoot#0" />
-            <element signature="n#!!block;n#onKeyUp#0;n#shoot#0" />
-            <element signature="n#!!block;n#update#0;n#shoot#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Scripts/game.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -217,6 +142,36 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Scripts/shoot.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#142#0" expanded="true" />
+            <element signature="n#shoot#0" />
+            <element signature="n#!!block;n#onKeyDown#0;n#shoot#0" />
+            <element signature="n#!!block;n#onKeyUp#0;n#shoot#0" />
+            <element signature="n#!!block;n#update#0;n#shoot#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Materials/block.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/resources/ground.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/resources/img12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/resources/block.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
