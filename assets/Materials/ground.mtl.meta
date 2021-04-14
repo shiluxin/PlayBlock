@@ -1,11 +1,8 @@
 {
-  "ver": "1.0.8",
+  "ver": "1.0.9",
   "importer": "material",
   "imported": true,
   "uuid": "34fda6ca-a01c-4675-bf27-671b512ed86b",
-  "name": "",
-  "id": "",
-  "displayName": "",
   "files": [
     ".json"
   ],

@@ -2,5 +2,6 @@
   "state": {
     "expand": "[\"5e5c2fe8-60de-4a17-ac35-1e6df7204997\"]",
     "sort": "name"
-  }
+  },
+  "__version__": "1.0.0"
 }

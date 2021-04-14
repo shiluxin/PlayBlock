@@ -11,7 +11,10 @@
     {
       "USE_ALBEDO_MAP": true,
       "USE_EMISSIVE_MAP": true,
-      "ALPHA_TEST_CHANNEL": "r"
+      "ALPHA_TEST_CHANNEL": "r",
+      "OCCLUSION_CHANNEL": "b",
+      "ROUGHNESS_CHANNEL": "r",
+      "METALLIC_CHANNEL": "g"
     }
   ],
   "_states": [
@@ -34,10 +37,13 @@
         "b": 255,
         "a": 255
       },
-      "albedoMap": {
+      "emissiveMap": {
         "__uuid__": "5e5c2fe8-60de-4a17-ac35-1e6df7204997@6c48a"
       },
-      "emissiveMap": {
+      "occlusion": 1,
+      "roughness": 0.8,
+      "metallic": 0.6,
+      "mainTexture": {
         "__uuid__": "5e5c2fe8-60de-4a17-ac35-1e6df7204997@6c48a"
       }
     }

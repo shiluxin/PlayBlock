@@ -10,7 +10,10 @@
   "_defines": [
     {
       "USE_ALBEDO_MAP": true,
-      "USE_EMISSIVE_MAP": true
+      "USE_EMISSIVE_MAP": true,
+      "OCCLUSION_CHANNEL": "b",
+      "ROUGHNESS_CHANNEL": "r",
+      "METALLIC_CHANNEL": "g"
     }
   ],
   "_states": [
@@ -26,10 +29,13 @@
   ],
   "_props": [
     {
-      "albedoMap": {
+      "emissiveMap": {
         "__uuid__": "e6b53d48-a5e7-4373-82b4-6ae91eba9a01@6c48a"
       },
-      "emissiveMap": {
+      "occlusion": 1,
+      "roughness": 0.8,
+      "metallic": 0.6,
+      "mainTexture": {
         "__uuid__": "e6b53d48-a5e7-4373-82b4-6ae91eba9a01@6c48a"
       }
     }

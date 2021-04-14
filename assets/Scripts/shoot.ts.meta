@@ -1,17 +1,16 @@
 {
-  "ver": "1.0.844",
+  "ver": "4.0.1",
   "importer": "typescript",
   "imported": true,
   "uuid": "12d8e8d7-7941-41f0-85b1-d16a934cf6f9",
-  "name": "",
-  "id": "",
-  "displayName": "",
   "files": [
-    ".js"
+    ".js",
+    ".trans"
   ],
   "subMetas": {},
   "userData": {
-    "moduleId": "project:///assets/Scripts/shoot.ts",
-    "importAsPlugin": false
+    "moduleId": "project:///assets/Scripts/shoot.js",
+    "importAsPlugin": false,
+    "importerSettings": 0
   }
 }
